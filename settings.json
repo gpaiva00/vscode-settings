@@ -47,16 +47,19 @@
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.rulers": [90, 120],
     "editor.guides.indentation": false,
     "explorer.compactFolders": true,
     "explorer.openEditors.visible": 0, 
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
     "breadcrumbs.enabled": false,
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.hidesExplorerArrows": true,
     "material-icon-theme.opacity": 1,
     "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.folders.color": "#9183c3",
     "search.collapseResults": "alwaysCollapse",
     "terminal.integrated.copyOnSelection": false,
     "terminal.integrated.cursorBlinking": true,
@@ -105,13 +108,10 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.matchBrackets": "always",
-    "editor.rulers": [90, 120],
     "emmet.syntaxProfiles": { "javascript": "jsx" },
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
-    },
-    "explorer.confirmDelete": false,
-  
+    },  
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
     },
@@ -134,9 +134,6 @@
     "[python]": {
       "editor.defaultFormatter": "ms-python.python"
     },
-    
-    "material-icon-theme.folders.color": "#9183c3",
-    "stories.username": "harlequin_dog",
     "extensions.ignoreRecommendations": false,
     "cSpell.userWords": [
       "ANONYMIZED",
@@ -152,7 +149,6 @@
     "git.autofetch": true,
     "prettier.arrowParens": "avoid",
     "prettier.configPath": "./prettier.config.js",
-    
     "security.workspace.trust.untrustedFiles": "open",
     "diffEditor.ignoreTrimWhitespace": false,
     "git.confirmSync": false,
