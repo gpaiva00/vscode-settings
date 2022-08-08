@@ -1,0 +1,170 @@
+{
+    "window.titleBarStyle": "native",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "350",
+    "editor.fontFamily": " 'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line-thin",
+    "editor.lineHeight": 24,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": true,
+    "editor.largeFileOptimizations": false,
+    "editor.renderWhitespace": "none", // removes indent guides
+    "editor.renderLineHighlight": "all", // removes line highlight
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+    "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
+    "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
+    "explorer.openEditors.visible": 0, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+    "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
+    "workbench.statusBar.visible": true, // removes the status bar
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.activeIconPack": "react",
+    "editor.tabSize": 2,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.foldingStrategy": "indentation",
+    "search.collapseResults": "alwaysCollapse",
+    "terminal.integrated.copyOnSelection": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 16,
+    "typescript.format.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.semi": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.sideBar.location": "right",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 100,
+    "breadcrumbs.enabled": false,
+    "files.associations": {
+      "*.config": "yaml"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.matchBrackets": "always",
+    "editor.rulers": [90, 120],
+    "terminal.integrated.shell.osx": "/bin/zsh",
+  
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "explorer.confirmDelete": false,
+  
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "material-icon-theme.folders.associations": {
+      "repositories": "mappings",
+      "migrations": "tools",
+      "modules": "components",
+      "typeorm": "database",
+      "infra": "app",
+      "entities": "class",
+      "schemas": "class",
+      "http": "container",
+      "implementations": "core",
+      "dtos": "typescript"
+    },
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#9183c3",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "stories.username": "harlequin_dog",
+    "extensions.ignoreRecommendations": false,
+    "cSpell.userWords": [
+      "ANONYMIZED",
+      "firestore",
+      "IPLANNER",
+      "Reactotron",
+      "Vidu",
+      "whatsapp",
+      "Youtube"
+    ],
+    "cSpell.enableFiletypes": ["!c", "!go", "!jade", "!java", "!php", "!pug", "!rust", "!scala"],
+    "cSpell.language": "en,pt-BR",
+    "git.autofetch": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.configPath": "./prettier.config.js",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.startupEditor": "none",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.guides.indentation": false,
+    "git.confirmSync": false,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": false,
+      "markdown": false
+    },
+    "git.enableSmartCommit": true,
+    "workbench.layoutControl.enabled": false,
+    "explorer.autoReveal": false,
+    "workbench.tree.indent": 12,
+    "workbench.activityBar.visible": false,
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.codeLens": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.inlineSuggest.enabled": false,
+    "customizeUI.listRowHeight": 20,
+    "customizeUI.statusBarPosition": "under-panel"
+  }
+  
