@@ -1,5 +1,23 @@
 {
     "window.titleBarStyle": "native",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabCloseButton": "off", 
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.statusBar.visible": true, 
+    "workbench.layoutControl.enabled": false,
+    "workbench.tree.indent": 12,
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.codeLens": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.inlineSuggest.enabled": false,
     "editor.minimap.enabled": false,
     "editor.fontSize": 16,
     "editor.fontWeight": "350",
@@ -10,40 +28,45 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "line-thin",
     "editor.lineHeight": 24,
-    "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": true,
     "editor.largeFileOptimizations": false,
-    "editor.renderWhitespace": "none", // removes indent guides
-    "editor.renderLineHighlight": "all", // removes line highlight
-    "workbench.editor.highlightModifiedTabs": true,
-    "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
-    "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
-    "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
-    "explorer.openEditors.visible": 0, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
-    "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
-    "workbench.statusBar.visible": true, // removes the status bar
-    "material-icon-theme.folders.theme": "specific",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "material-icon-theme.opacity": 1,
-    "material-icon-theme.activeIconPack": "react",
+    "editor.renderWhitespace": "none", 
+    "editor.renderLineHighlight": "all", 
+    "editor.overviewRulerBorder": false, 
+    "editor.occurrencesHighlight": false, 
+    "editor.glyphMargin": false, 
     "editor.tabSize": 2,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.foldingStrategy": "indentation",
-    "search.collapseResults": "alwaysCollapse",
-    "terminal.integrated.copyOnSelection": false,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontSize": 16,
-    "typescript.format.enable": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.semi": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.sideBar.location": "right",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
       "strings": false
     },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.guides.indentation": false,
+    "explorer.compactFolders": true,
+    "explorer.openEditors.visible": 0, 
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": false,
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.activeIconPack": "react",
+    "search.collapseResults": "alwaysCollapse",
+    "terminal.integrated.copyOnSelection": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "typescript.format.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.semi": false,
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -75,7 +98,6 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.printWidth": 100,
-    "breadcrumbs.enabled": false,
     "files.associations": {
       "*.config": "yaml"
     },
@@ -84,8 +106,6 @@
     },
     "editor.matchBrackets": "always",
     "editor.rulers": [90, 120],
-    "terminal.integrated.shell.osx": "/bin/zsh",
-  
     "emmet.syntaxProfiles": { "javascript": "jsx" },
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
@@ -114,10 +134,8 @@
     "[python]": {
       "editor.defaultFormatter": "ms-python.python"
     },
-    "workbench.iconTheme": "material-icon-theme",
+    
     "material-icon-theme.folders.color": "#9183c3",
-    "terminal.integrated.fontFamily": "monospace",
-    "workbench.colorTheme": "Ayu Dark Bordered",
     "stories.username": "harlequin_dog",
     "extensions.ignoreRecommendations": false,
     "cSpell.userWords": [
@@ -134,15 +152,9 @@
     "git.autofetch": true,
     "prettier.arrowParens": "avoid",
     "prettier.configPath": "./prettier.config.js",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
+    
     "security.workspace.trust.untrustedFiles": "open",
     "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.startupEditor": "none",
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.guides.indentation": false,
     "git.confirmSync": false,
     "typescript.preferences.importModuleSpecifier": "non-relative",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -153,17 +165,6 @@
       "markdown": false
     },
     "git.enableSmartCommit": true,
-    "workbench.layoutControl.enabled": false,
-    "explorer.autoReveal": false,
-    "workbench.tree.indent": 12,
-    "workbench.activityBar.visible": false,
-    "editor.padding.bottom": 14,
-    "editor.padding.top": 14,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.codeLens": false,
-    "editor.parameterHints.enabled": false,
-    "editor.inlayHints.enabled": "off",
-    "editor.inlineSuggest.enabled": false,
     "customizeUI.listRowHeight": 20,
     "customizeUI.statusBarPosition": "under-panel"
   }
